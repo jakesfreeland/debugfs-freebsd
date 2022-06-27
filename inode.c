@@ -16,17 +16,17 @@
 #include <linux/fs.h>
 #include <linux/mount.h>
 #include <linux/pagemap.h>
-#include <linux/init.h>
+/* #include <linux/init.h> */
 #include <linux/kobject.h>
-#include <linux/namei.h>
+/* #include <linux/namei.h> */
 #include <linux/debugfs.h>
-#include <linux/fsnotify.h>
+/* #include <linux/fsnotify.h> */
 #include <linux/string.h>
 #include <linux/seq_file.h>
-#include <linux/parser.h>
-#include <linux/magic.h>
+/* #include <linux/parser.h> */
+/* #include <linux/magic.h> */
 #include <linux/slab.h>
-#include <linux/security.h>
+/* #include <linux/security.h> */
 
 #include "internal.h"
 

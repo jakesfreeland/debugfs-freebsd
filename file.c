@@ -18,9 +18,9 @@
 #include <linux/slab.h>
 #include <linux/atomic.h>
 #include <linux/device.h>
-#include <linux/pm_runtime.h>
+/* #include <linux/pm_runtime.h> */
 #include <linux/poll.h>
-#include <linux/security.h>
+/* #include <linux/security.h> */
 
 #include "internal.h"
 
