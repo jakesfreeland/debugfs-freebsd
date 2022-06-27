@@ -1,5 +1,11 @@
-# SPDX-License-Identifier: GPL-2.0-only
-debugfs-objs	:= inode.o file.o
+# $FreeBSD$
 
-obj-$(CONFIG_DEBUG_FS)	+= debugfs.o
+.PATH: ${SRCTOP}/sys/fs/debugfs
 
+KMOD=		debugfs
+SRCS=		file.c
+SRCS+=		inode.c
+
+CFLAGS= -I${SYSDIR}/compat/linuxkpi/common/include
+
+.include <bsd.kmod.mk>
