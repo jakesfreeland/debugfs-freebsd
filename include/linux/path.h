@@ -30,7 +30,7 @@
 
 struct linux_path {
 	struct dentry *dentry;
-}
+};
 
 #define	path		linux_path
 
